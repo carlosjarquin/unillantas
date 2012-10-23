@@ -1,0 +1,168 @@
+@charset "utf-8";
+@autor "Carlos Ramirez profuntere@hotmail.com";
+/* CSS Document */
+
+	#header{
+				margin-top: 20px;
+				padding-top: 10px;
+				background-color: #ddd;
+				-webkit-border-top-left-radius: 9px;
+				-webkit-border-top-right-radius: 9px;
+				-moz-border-radius-topleft: 9px;
+				-moz-border-radius-topright: 9px;
+				border-top-left-radius: 9px;
+				border-top-right-radius: 9px;
+				-webkit-box-shadow: 6px 6px 12px rgba(44, 50, 50, 0.79);
+				-moz-box-shadow:    6px 6px 12px rgba(44, 50, 50, 0.79);
+				box-shadow:         6px 6px 12px rgba(44, 50, 50, 0.79);
+				
+			}
+			
+			#menu{
+				padding-top: 10 px;
+				-webkit-box-shadow: 6px 6px 12px rgba(44, 50, 50, 0.79);
+				-moz-box-shadow:    6px 6px 12px rgba(44, 50, 50, 0.79);
+				box-shadow:         6px 6px 12px rgba(44, 50, 50, 0.79);
+			}
+			#cuerpo{
+				-webkit-border-bottom-right-radius: 9px;
+				-webkit-border-bottom-left-radius: 9px;
+				-moz-border-radius-bottomright: 9px;
+				-moz-border-radius-bottomleft: 9px;
+				border-bottom-right-radius: 9px;
+				border-bottom-left-radius: 9px;
+				background-color: #ddd;
+				-webkit-box-shadow: 6px 6px 12px rgba(44, 50, 50, 0.79);
+				-moz-box-shadow:    6px 6px 12px rgba(44, 50, 50, 0.79);
+				box-shadow:         6px 6px 12px rgba(44, 50, 50, 0.79);
+				padding: 10px 0 10px 0;
+			}
+			
+			#logo{
+				margin: 10px 0 15px 20px;
+			}
+			
+			.cuadro{
+				 margin-top: 60px;
+				 margin-bottom:150px;
+				-webkit-border-radius: 9px;
+				-moz-border-radius: 9px;
+				border-radius: 9px;
+				border-top-left-radius: 09px;
+				background-color: #7d7d7d;
+				background: #7d7d7d url(../images/overlay.png) repeat-x 0 -100px;
+				padding: 10px 10px 10px 35px;
+				-moz-box-shadow: 0 3px 5px rgba(0,0,0, .3); box-shadow: 0 3px 5px rgba(0,0,0, .3);
+				-webkit-box-shadow: 0 3px 5px rgba(0,0,0, .3);
+				
+			}
+			.log{
+				text-align: right;
+			}
+			.log a{
+				
+				color: #000000;
+				text-decoration: none;
+				
+			}
+			
+			
+			
+			#buscar input{
+				font-size: 15px;
+				
+			}
+			
+			#imagen{
+				background-color: #fff;
+				-webkit-border-radius: 5px;
+				-moz-border-radius: 5px;
+				border-radius: 5px; 
+			}
+			
+			#imagen img{
+				display: block;
+				margin: auto;
+			}
+			
+			#info{
+				background-color: #FFFFFF;
+				width: 460px;
+				height: 352px;
+				-webkit-border-radius: 5px;
+				-moz-border-radius: 5px;
+				border-radius: 5px;
+			}
+			
+			.fuente{
+				padding-right: 15px;
+				padding-left: 15px;
+				text-align:justify;
+			}
+			
+			.footer{
+				margin-top: 5px;
+				text-align: center;
+			}
+			
+			#footer{
+				padding-top: 20px;
+			}
+			
+			.borderTable {	
+			padding: 2px 4px 2px 4px;
+			border: 1px solid #660000;
+			}
+				
+			#registro{
+				padding-right:45px;
+				background-color: #c0c0c0;
+				border-style: dotted;
+			
+				-webkit-border-radius: 7px;
+				-moz-border-radius: 7px;
+				border-radius: 7px;
+				display: block;
+				font-weight:normal;
+				text-align:right;
+				/*Gradient*/
+				background-image: linear-gradient(bottom, rgb(122,122,122) 36%, rgb(209,209,209) 100%);				
+				background-image: -o-linear-gradient(bottom, rgb(122,122,122) 36%, rgb(209,209,209) 100%);
+				background-image: -moz-linear-gradient(bottom, rgb(122,122,122) 36%, rgb(209,209,209) 100%);
+				background-image: -webkit-linear-gradient(bottom, rgb(122,122,122) 36%, rgb(209,209,209) 100%);
+				background-image: -ms-linear-gradient(bottom, rgb(122,122,122) 36%, rgb(209,209,209) 100%);
+				background-image: -webkit-gradient(
+				linear,
+				left bottom,
+				left top,
+				color-stop(0.36, rgb(122,122,122)),
+				color-stop(1, rgb(209,209,209)));
+				
+			}
+			
+						
+			#gradient{
+						font-weight: bold;
+						color: #e7e5e5; 
+						text-decoration: none; 
+						display: block; padding: 8px 20px; margin: 0; 
+						text-shadow: 0 1px 1px rgba(0,0,0, .3);
+			}
+			
+			#gradient td{
+				border: 1px solid #ff;
+			}
+			
+			#gradient li{
+				color:#27212c;
+			}
+											
+			#titulo h1,h4{
+				text-align: center;				
+				/*padding-left: 100px;*/
+				color: #ffffff; 
+				text-decoration: none; 
+				display: block; margin: 0; 
+				text-shadow: 0 2px 2px rgba(0,0,0, .5);
+											
+			}
